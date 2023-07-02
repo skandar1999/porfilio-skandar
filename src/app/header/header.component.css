@@ -1,0 +1,61 @@
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler:hover {
+  outline: none;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+#navbar{  background-color: #202334;
+}
+
+
+.nav-link {
+  color: white;
+  font-weight: 700;
+}
+
+.dropdown-menu {
+  padding: 0;
+  border: none;
+}
+
+.dropdown-item {
+  padding: 10px 30px;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: #000000;
+  background-color: #f2f2f2;
+}
+
+.dropdown-divider {
+  margin: 0;
+}
+
+.nav-link {
+  position: relative;
+  transition: transform 0.3s ease;
+  margin-inline-start: 10px;
+}
+
+.nav-link:hover {
+  transform: translateY(-2px);
+}
+
+.navbar-brand {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  margin-left: 50px;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 0;
+}
